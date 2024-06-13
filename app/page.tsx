@@ -1,14 +1,15 @@
 
 
-import Navbar from "./NavbarDemo";
+import Sparkles from "./Hero";
+import MeteorsCard from "./MeteorCard";
+import NavbarDemo from "./NavBar";
 
 export default function Home() {
   return (
-    <div className="relative w-full flex items-center justify-center">
-      <NavbarDemo className="top-2" />
-      <p className="text-black dark:text-white">
-        The Navbar will show on top of the page
-      </p>
+    <div>
+      <NavbarDemo />
+      <Sparkles/>
+      <MeteorsCard />
     </div>
   );
 }
