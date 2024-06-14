@@ -4,7 +4,8 @@ import { SparklesCore } from "../components/sparkles";
 
 export default function Sparkles() {
   return (
-    <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[40rem] w-full bg-sparkles flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <h1 className="text-2xl font-bold text-center text-white">UI UX Designer | Web Developer</h1>
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
         Rakesh Kanna
       </h1>
